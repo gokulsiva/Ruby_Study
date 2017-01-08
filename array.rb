@@ -1,8 +1,10 @@
 #!/usr/bin/ruby
-array = [ "hi", 10, 20.3, "help", ]
-array.each do |i|
-	print i,"\n"
+
+array = ['hi', '1', 10.5,]
+for i in array
+	puts "#{i}"
 end
+
 
 hsh = { "apple" => "red", "lemon" => "yellow"}
 hsh.each do |key,value|
